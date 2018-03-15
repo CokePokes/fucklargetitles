@@ -16,36 +16,7 @@
 #import <Foundation/Foundation.h>
 #import "CaptainHook/CaptainHook.h"
 
-#import <UIKit/UIKit.h>
-
-// Objective-C runtime hooking using CaptainHook:
-//   1. declare class using CHDeclareClass()
-//   2. load class using CHLoadClass() or CHLoadLateClass() in CHConstructor
-//   3. hook method using CHOptimizedMethod()
-//   4. register hook using CHHook() in CHConstructor
-//   5. (optionally) call old method using CHSuper()
-
-
-@interface fucklargetitles : NSObject
-
-@end
-
-@implementation fucklargetitles
-
--(id)init
-{
-	if ((self = [super init]))
-	{
-	}
-
-    return self;
-}
-
-@end
-
-
 CHDeclareClass(UINavigationBar);
-
 CHOptimizedMethod0(self, BOOL, UINavigationBar, prefersLargeTitles)
 {
     return NO;
