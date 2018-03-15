@@ -1,6 +1,6 @@
 Package: com.cokepokes.fucklargetitles
 Name: fucklargetitles
-Version: 0.1-1
+Version: 0.2-1
 Description: Removes the redeckulous iOS11 HUGE titles in Apps
 Section: Tweaks
 Depends: firmware (>= 11.0), mobilesubstrate
