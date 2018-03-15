@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5B62AC2205A94150078AC22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B62AC1205A94150078AC22 /* Foundation.framework */; };
+		B5B62ACA205A94150078AC22 /* fucklargetitles.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5B62AC9205A94150078AC22 /* fucklargetitles.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5B62ABE205A94150078AC22 /* fucklargetitles.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = fucklargetitles.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B62AC1205A94150078AC22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5B62AC6205A94150078AC22 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		B5B62AC8205A94150078AC22 /* fucklargetitles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fucklargetitles-Prefix.pch"; sourceTree = "<group>"; };
+		B5B62AC9205A94150078AC22 /* fucklargetitles.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = fucklargetitles.mm; sourceTree = "<group>"; };
+		B5B62ACE205A94150078AC22 /* fucklargetitles.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fucklargetitles.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/fucklargetitles.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B62ABA205A94150078AC22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B62AC2205A94150078AC22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5B62AB4205A94150078AC22 = {
+			isa = PBXGroup;
+			children = (
+				B5B62AC3205A94150078AC22 /* fucklargetitles */,
+				B5B62AC0205A94150078AC22 /* Frameworks */,
+				B5B62ABF205A94150078AC22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B62ABF205A94150078AC22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62ABE205A94150078AC22 /* fucklargetitles.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B62AC0205A94150078AC22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62AC1205A94150078AC22 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B62AC3205A94150078AC22 /* fucklargetitles */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62AC9205A94150078AC22 /* fucklargetitles.mm */,
+				B5B62AC4205A94150078AC22 /* Package */,
+				B5B62AC7205A94150078AC22 /* Supporting Files */,
+			);
+			path = fucklargetitles;
+			sourceTree = "<group>";
+		};
+		B5B62AC4205A94150078AC22 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62AC5205A94150078AC22 /* DEBIAN */,
+				B5B62ACB205A94150078AC22 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		B5B62AC5205A94150078AC22 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62AC6205A94150078AC22 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		B5B62AC7205A94150078AC22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62AC8205A94150078AC22 /* fucklargetitles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5B62ACB205A94150078AC22 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62ACC205A94150078AC22 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		B5B62ACC205A94150078AC22 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62ACD205A94150078AC22 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		B5B62ACD205A94150078AC22 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62ACE205A94150078AC22 /* fucklargetitles.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5B62ABB205A94150078AC22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B5B62ABD205A94150078AC22 /* fucklargetitles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B62AD1205A94150078AC22 /* Build configuration list for PBXNativeTarget "fucklargetitles" */;
+			buildPhases = (
+				B5B62AB9205A94150078AC22 /* Sources */,
+				B5B62ABA205A94150078AC22 /* Frameworks */,
+				B5B62ABB205A94150078AC22 /* Headers */,
+				B5B62ABC205A94150078AC22 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fucklargetitles;
+			productName = fucklargetitles;
+			productReference = B5B62ABE205A94150078AC22 /* fucklargetitles.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B62AB5205A94150078AC22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					B5B62ABD205A94150078AC22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B5B62AB8205A94150078AC22 /* Build configuration list for PBXProject "fucklargetitles" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5B62AB4205A94150078AC22;
+			productRefGroup = B5B62ABF205A94150078AC22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B62ABD205A94150078AC22 /* fucklargetitles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5B62ABC205A94150078AC22 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B62AB9205A94150078AC22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B62ACA205A94150078AC22 /* fucklargetitles.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5B62ACF205A94150078AC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"fucklargetitles\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5B62AD0205A94150078AC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"fucklargetitles\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		B5B62AD2205A94150078AC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUYLZA5X3V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fucklargetitles/fucklargetitles-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5B62AD3205A94150078AC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUYLZA5X3V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fucklargetitles/fucklargetitles-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B62AB8205A94150078AC22 /* Build configuration list for PBXProject "fucklargetitles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B62ACF205A94150078AC22 /* Release */,
+				B5B62AD0205A94150078AC22 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B62AD1205A94150078AC22 /* Build configuration list for PBXNativeTarget "fucklargetitles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B62AD2205A94150078AC22 /* Release */,
+				B5B62AD3205A94150078AC22 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5B62AB5205A94150078AC22 /* Project object */;
+}
