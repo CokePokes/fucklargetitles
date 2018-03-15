@@ -24,15 +24,12 @@ CHOptimizedMethod0(self, BOOL, UINavigationBar, prefersLargeTitles)
 
 CHConstructor // code block that runs immediately upon load
 {
-	@autoreleasepool
-	{
+    @autoreleasepool {
         NSProcessInfo *processInfo = [NSProcessInfo processInfo];
-        if ([[[processInfo environment] objectForKey:@"XPC_SERVICE_NAME"] containsString:@"UIKitApplication"])
+        if ([[[processInfo environment] objectForKey:@"XPC_SERVICE_NAME"] containsString:@"UIKitApplication"] && ![[processInfo processName] isEqualToString:@"AppStore"])
         {
-            if (![[processInfo processName] isEqualToString:@"AppStore"]){
-                CHLoadLateClass(UINavigationBar);
-                CHHook0(UINavigationBar, prefersLargeTitles);
-            }
+            CHLoadLateClass(UINavigationBar);
+            CHHook0(UINavigationBar, prefersLargeTitles);
         }
-	}
+    }
 }
